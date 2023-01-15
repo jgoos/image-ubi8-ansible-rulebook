@@ -1,6 +1,7 @@
 # image-ubi8-ansible-rulebook
 
-Run `ansible-rulebook`, an Event Driven Automation tool, in a container using this repository.
+Use this repository to run `ansible-rulebook`, an event-driven automation tool, in a container.
+The primary purpose of this image is to facilitate the development of a [custom rulebook plugin](https://ansible-rulebook.readthedocs.io/en/latest/sources.html#how-to-develop-a-custom-plugin).
 
 ## Overview
 
