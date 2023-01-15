@@ -19,13 +19,9 @@ podman build -t ansible-rulebook .
 
 ## Usage
 
-To run the `ansible-rulebook` command via the container, use the following command:
+Example command to run `ansible-rulebook` using the container image:
 
 ``` bash
 podman run --rm localhost/ansible-rulebook:latest ansible-rulebook -h
 ```
-
-This will give you the help menu for the `ansible-rulebook` command. You can also pass in your own arguments and flags as necessary.
-
-Please note that the `--rm` flag is added to remove the container after it exits. If you want to keep the container for further usage, remove this flag.
 
