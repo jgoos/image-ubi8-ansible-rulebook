@@ -1,4 +1,7 @@
 FROM registry.access.redhat.com/ubi8
+
+LABEL org.opencontainers.image.authors="jgoos.code@gmail.com"
+
 ARG PKG_NAME=java-17-openjdk 
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 RUN dnf update -y && \
